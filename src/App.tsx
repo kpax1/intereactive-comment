@@ -1,6 +1,5 @@
 import React, { useEffect, useReducer } from "react";
 import axios from "axios";
-import img from '../public/images/icon-reply.svg'
 import "./emzo.css";
 import { useState } from "react";
 import useIdentUser from "./hooks/useIdentUser";
@@ -75,7 +74,7 @@ function reducer(state: StateType, action: ActionType) {
       };
 
     case "addreply":
-      const { commentId, replyinput, replyingTo, replie } = action.payload;
+      const { commentId, replyinput } = action.payload;
       return {
         ...state,
         replyinput: "",
@@ -212,7 +211,6 @@ function App() {
     replyinput: any,
     setIsReplying: any,
     replyingTo: any,
-    deleteReplie: any,
     replie: any
   ) => {
     dispatch({
