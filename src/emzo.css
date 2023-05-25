@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #F5F6FA;
+    
+}
+
+.diiv{
+    background-color: #F5F6FA;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+
+.ind{
+    background-color: rgba(177, 194, 30, 0.445);
+    background-color: #ffff;
+    border-radius: 8px;
+    width: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+
+    
+}
+
+.commentheeader{
+    display: flex;  
+    gap: 16px;
+    height: 64px;
+    align-items: center;
+    margin-left: 16px;
+}
+
+
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.96px;
+    color: #334253;
+}
+
+p{
+    color: #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 16px;
+
+}
+.replieSection{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+}
+
+.reply{
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #5357B6;
+    font-weight: 700;
+    margin-right: 16px;
+    background-color: #ffff;
+
+
+}
+
+.pp{
+    margin-top: 20px;
+   background-color: #ffff;
+   border-radius: 8px;
+}
+.comreplies{
+    background-color: #F5F6FA;
+    padding-top: 0.02px;
+}
+
+.repliecomment{
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+.profile {
+    width: 32px;
+    height: 32px;
+}
+.comment {
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+
+.content{
+    background-color: aquamarine;
+}
+
+
+.repliedcomments{
+    background-color: rgba(240, 255, 255, 0.779);
+    margin-left: 3rem;
+}
+
+
+.replybutton{
+    background-color: blue;
+    margin: 20px;
+}
+
+.replyes{
+    background-color: aquamarine;
+    margin: 3rem;
+}
+
+
+.firstword{
+    color: blue;
+    font-weight: 700;
+}
+
+
+
+.replieto{
+    background-color: rgb(202, 105, 105);
+    margin-right: 0.4rem;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 20px;
+}
+
+
